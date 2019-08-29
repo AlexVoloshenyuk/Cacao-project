@@ -102,12 +102,12 @@ img {
 /* Section B */
 .section-b {
     position: relative;
-    background: url('../img/section-b.jpg') no-repeat bottom center/cover;
+    background: url('../img/1339.jpg') no-repeat bottom center/cover;
     height: 600px;
 }
 
 .section-b-inner {
-    color: #fff;
+    color: black;
     height: 100%;
     display: flex;
     flex-direction: column;
