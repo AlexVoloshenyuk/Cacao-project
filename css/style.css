@@ -104,6 +104,7 @@ img {
     position: relative;
     background: url('../img/11.jpg') no-repeat bottom center/cover;
     height: 500px;
+    border-radius: 90px 90px 90px 90px;
 }
 
 .section-b-inner {
@@ -162,6 +163,7 @@ img {
     background: var(--primary-color);
     color: #fff;
     padding: 4rem 0;
+    border-radius: 90px 90px 90px 90px;
 }
 
 .section-footer .container {
