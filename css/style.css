@@ -170,6 +170,7 @@ img {
 .section-c .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+    margin-top: 10px;
 }
 
 /* Section-d */
@@ -188,6 +189,11 @@ img {
 
 .section-d p {
     margin: 1rem 0;
+}
+
+.section-d .btn {
+    color: rgb(233, 233, 233);
+    border-style: dashed;
 }
 
 /* Footer */
