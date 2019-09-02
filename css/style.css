@@ -110,15 +110,18 @@ img {
     grid-gap: 3rem;
     align-items: center;
     justify-content: center;
+    font-family: 'Chilanka', cursive;
 }
 
 .section-a h1 {
     font-size: 4rem;
     color: var(--primary-color);
+    font-family: 'Chilanka', cursive;
 }
 
 .section-a p {
     margin: 1rem 0;
+    font-family: 'Chilanka', cursive;
 }
 
 .section-a img {
@@ -154,11 +157,13 @@ img {
 
 .section-b-inner h3 {
     font-size: 2rem;
+    font-family: 'Chilanka', cursive;
 }
 
 .section-b-inner h2 {
     font-size: 5rem;
     margin-top: 1rem;
+    font-family: 'Chilanka', cursive;
 }
 
 .section-b-inner p {
@@ -182,18 +187,25 @@ img {
     justify-content: center;
 }
 
+.section-d img {
+    border-radius: 80%;
+}
+
 .section-d h1 {
     font-size: 4rem;
     color: var(--primary-color);
+    font-family: 'Chilanka', cursive;
 }
 
 .section-d p {
     margin: 1rem 0;
+    font-family: 'Chilanka', cursive;
 }
 
 .section-d .btn {
     color: rgb(233, 233, 233);
     border-style: dashed;
+    font-family: 'Chilanka', cursive;
 }
 
 /* Footer */
@@ -214,10 +226,12 @@ img {
 .section-footer h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    font-family: 'Chilanka', cursive;
 }
 
 .section-footer h3 {
     margin-bottom: 0.7rem;
+    font-family: 'Chilanka', cursive;
 }
 
 .section-footer a {
