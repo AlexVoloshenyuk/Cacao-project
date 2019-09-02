@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #333;
-    --secondary-color: #444;
+    /* --primary-color: rgba(143, 122, 122, 0.904); */
+    --secondary-color: rgb(78, 69, 69);
     --overlay-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -13,7 +13,7 @@
 body {
     font-family: 'Catamaran', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #fff;
     font-size: 1.1rem;
 }
 
@@ -36,7 +36,7 @@ body {
     z-index: -10;
     top: 0;
     left: 0;
-    background-color: rgb(236, 216, 185);
+    background-color: rgb(163, 69, 66);
 }
 
 h1,
@@ -121,6 +121,10 @@ img {
     margin: 1rem 0;
 }
 
+.section-a img {
+    border-radius: 100px 100px 100px 100px;
+}
+
 /* Section B */
 .section-b {
     position: relative;
@@ -131,7 +135,7 @@ img {
 }
 
 .section-b-inner {
-    color: #333;
+    color: #fff;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -186,7 +190,7 @@ img {
     background: var(--primary-color);
     color: #fff;
     padding: 4rem 0;
-    border-radius: 20%;
+    border-radius: 100px 100px 0px 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
