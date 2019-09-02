@@ -124,14 +124,14 @@ img {
 /* Section B */
 .section-b {
     position: relative;
-    background: url('../img/11.jpg') no-repeat bottom center/cover;
+    /* background: url('../img/11.jpg') no-repeat bottom center/cover; */
     height: 500px;
-    border-radius: 20%;
+    border-radius: 100px 100px 100px 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .section-b-inner {
-    color: #fff;
+    color: #333;
     height: 100%;
     display: flex;
     flex-direction: column;
