@@ -122,7 +122,12 @@ img {
 }
 
 .section-a img {
-    border-radius: 100px 100px 100px 100px;
+    border-radius: 80%;
+}
+
+.section-a .btn {
+    color: #fff;
+    border-style: dashed;
 }
 
 /* Section B */
