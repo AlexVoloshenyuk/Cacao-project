@@ -106,8 +106,8 @@ img {
 
 /* header-logo */
 .header img {
-    float: left;
-    margin: 0 15px;
+    float: top;
+    margin: 3px 15px;
     width: 80px;
     height: 55px;
     box-shadow: 0 0 15px rgba(209, 184, 184, 0.5);
