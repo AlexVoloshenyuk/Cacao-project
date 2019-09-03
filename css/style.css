@@ -213,6 +213,8 @@ img {
     border-radius: 80%;
     box-shadow: 0 0 15px rgba(209, 184, 184, 0.5);
     max-width: 400px;
+    margin: 150px 40px 20px;
+    margin-top: 1rem;
 }
 
 .section-d h1 {
