@@ -141,7 +141,7 @@ img {
     position: relative;
     /* background: url('../img/11.jpg') no-repeat bottom center/cover; */
     height: 500px;
-    border-radius: 10px 10px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -179,6 +179,11 @@ img {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin: 10px 90px;
+}
+
+.section-c .gallery img {
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(209, 184, 184, 0.5);
 }
 
 .gallery img {
@@ -250,7 +255,7 @@ img {
 }
 
 .section-footer a>i {
-    color: #555;
+    color: rgba(206, 54, 54, 0.904);
     margin-right: 0.5rem;
 }
 
