@@ -117,7 +117,7 @@ img {
 .section-a .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 4rem;
+    grid-gap: 6rem;
     align-items: center;
     justify-content: center;
     font-family: 'Chilanka', cursive;
@@ -138,6 +138,7 @@ img {
     border-radius: 80%;
     box-shadow: 0 0 15px rgba(209, 184, 184, 0.5);
     max-width: 350px;
+    margin: 0 70px 0;
 }
 
 .section-a .btn {
@@ -205,16 +206,15 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
-    align-items: center;
+    align-items: auto;
     justify-content: center;
 }
 
 .section-d img {
     border-radius: 80%;
     box-shadow: 0 0 15px rgba(209, 184, 184, 0.5);
-    max-width: 400px;
-    margin: 150px 40px 20px;
-    margin-top: 1rem;
+    max-width: 350px;
+    margin: 40px 250px 250px 100px;
 }
 
 .section-d h1 {
