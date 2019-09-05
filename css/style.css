@@ -188,7 +188,7 @@ img {
 .section-c .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 10px 90px;
+    margin: 20px 70px 12px 140px;
 }
 
 .section-c .gallery img {
