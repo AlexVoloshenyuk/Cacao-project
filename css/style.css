@@ -299,22 +299,7 @@ img {
 }
 
 /* Media Queries */
-@media (max-width: 800px) {
-
-    .section-b-inner h2 {
-        font-size: 2.5rem;
-    }
-
-    .section-b-inner h3 {
-        font-size: 1.5rem;
-    }
-
-    .section-b-inner p {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 700px) {
+@media (max-width: 992px) {
     .section-a .container {
         grid-template-columns: 1fr;
         text-align: center;
@@ -345,6 +330,15 @@ img {
         font-size: 1.0rem;
     }
 
+    .section-c .gallery {
+        font-size: 1.0rem;
+    }
+
+    .section-d .container {
+        font-size: 1.0rem;
+        padding: 2rem 0;
+    }
+
     .section-footer {
         padding: 2rem 0;
     }
@@ -352,5 +346,113 @@ img {
     .section-footer .container {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .section-a .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .section-a .container div:first-child {
+        order: 2;
+    }
+
+    .section-a .container div:nth-child(2) {
+        order: -1;
+    }
+
+    .section-a img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-b-inner h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-b-inner h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-b-inner p {
+        font-size: 1.0rem;
+    }
+
+    .section-c .gallery {
+        font-size: 1.0rem;
+    }
+
+    .section-d .container {
+        font-size: 1.0rem;
+        padding: 2rem 0;
+    }
+
+    .section-footer {
+        padding: 2rem 0;
+    }
+
+    .section-footer .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-a .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .section-a .container div:first-child {
+        order: 2;
+    }
+
+    .section-a .container div:nth-child(2) {
+        order: -1;
+    }
+
+    .section-a img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-b-inner h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-b-inner h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-b-inner p {
+        font-size: 1.0rem;
+    }
+
+    .section-c .gallery {
+        font-size: 1.0rem;
+    }
+
+    .section-d .container {
+        font-size: 1.0rem;
+        padding: 2rem 0;
+    }
+
+    .section-footer {
+        padding: 2rem 0;
+    }
+
+    .section-footer .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    @media (max-width: 428px) {
+        .section-d .container {
+            font-size: 1.0rem;
+            padding: 2rem 0;
+        }
     }
 }
